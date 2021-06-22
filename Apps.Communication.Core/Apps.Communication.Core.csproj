@@ -1,7 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFrameworks>net5.0; netstandard2.1</TargetFrameworks>
+    <Authors>Jake B. Parane</Authors>
+    <Description>A class library containing core abstractions for facilitating communication between app's objects.</Description>
+    <Copyright>© 2021</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/oenarap/Apps.Communication.Core</RepositoryUrl>
+    <PackageTags>apps.communication.core</PackageTags>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
 </Project>
