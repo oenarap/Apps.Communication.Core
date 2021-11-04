@@ -2,7 +2,7 @@
 
 namespace Apps.Communication.Core
 {
-    public interface IQueryResult<T> : IQueryResult, IDisposable
+    public interface IQueryResult<T> : IQueryResult
     { 
         T Data { get; }
     }
